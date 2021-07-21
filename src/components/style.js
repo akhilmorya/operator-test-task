@@ -7,6 +7,15 @@ export const useStyles = makeStyles((theme) => ({
   operationForm:{
     width:'100%',
   },
+  operationFormHeading:{
+    fontWeight: 'normal',
+    fontSize: '3rem',
+    margin: '0 0 30px',
+    '@media (max-width: 767px)' : {
+      fontSize: '2rem',
+      margin: '0 0 20px',
+    }
+  },
   operationFormControl:{
     width: '100%',
   },
@@ -14,6 +23,9 @@ export const useStyles = makeStyles((theme) => ({
     width: '100%',
     boxShadow: 'none',
     borderRadius: '0',
-    padding: '15px 30px',
+    padding: '14px 30px',
+    textTransform: 'capitalize',
+    fontSize: '1rem',
+    borderRadius: '4px',
   },
   }))
